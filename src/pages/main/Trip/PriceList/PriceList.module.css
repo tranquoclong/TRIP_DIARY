@@ -1,0 +1,139 @@
+.container {
+  padding: 50px;
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.header_container {
+  display: flex;
+  /* justify-content: start; */
+  align-items: center;
+  margin-bottom: 30px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 28px;
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.concurrencies_selector {
+  position: relative;
+}
+
+.concurrencies_selector > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #343a40;
+  padding: 5px 5px 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  min-width: 80px;
+}
+
+.concurrencies {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  position: absolute;
+  pointer-events: auto;
+  bottom: -70px;
+  z-index: 999;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 10px hsla(0, 0%, 4%, 0.15) !important;
+  color: #202d3d;
+  font-size: 0.875rem;
+  max-width: 300px;
+  min-width: 180px;
+  padding: 0;
+  width: auto !important;
+  display: block !important;
+}
+
+.appear {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.concurrency_item {
+  padding: 5px 1rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.concurrency_item:hover {
+  background: #e6fcf5;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: 600;
+  background: #f1f3f5;
+  border-radius: 8px;
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 20px;
+
+  margin-bottom: 20px;
+}
+
+.total_amount {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list_item {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  height: 80%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.add_item {
+  display: flex;
+  gap: 10px;
+  /* margin-top: 30px; */
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.add_button {
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.add_item:hover .add_button {
+  background-color: var(--text-color);
+  color: #fff;
+}
+
+.no_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+  font-size: 1rem;
+}

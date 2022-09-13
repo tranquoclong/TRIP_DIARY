@@ -1,0 +1,16 @@
+.rdw-editor-main {
+    background-attachment: local;
+    background-image: linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) calc(1.75rem - 1px), #e9edf0 0);
+    background-size: 100% 1.75rem;
+    border: none;
+    border-radius: 0;
+    height: 55vh !important;
+    line-height: 1;
+    max-height: none;
+    padding: 0px 13px;
+}
+
+.rdw-option-wrapper {
+    height: 30px !important;
+    min-width: 30px !important;
+}

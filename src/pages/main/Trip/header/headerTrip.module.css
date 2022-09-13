@@ -1,0 +1,128 @@
+.popupContent {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+  position: absolute;
+  pointer-events: auto;
+  top: 70px;
+  z-index: 999;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 10px hsla(0, 0%, 4%, 0.15) !important;
+  color: #202d3d;
+  font-size: 0.875rem;
+  max-width: 400px;
+  min-width: 180px;
+  padding: 0;
+  width: auto !important;
+  display: block !important;
+  right: 0;
+}
+
+.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdownTop {
+  height: 8px;
+  width: 16px;
+  position: absolute;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  transform: rotate(0deg) translateY(-100%) translateX(-50%);
+  top: 0%;
+  right: 22px;
+}
+
+.formLogout {
+  display: flex;
+  flex-flow: column;
+  max-height: calc(80vh - 100px);
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.logout {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.logoutContent {
+  align-items: center;
+  max-width: 100%;
+  padding: 15px;
+  justify-content: start;
+}
+
+.logoutContent input {
+  border: 1px solid hsla(0, 0%, 100%, 0) !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1) !important;
+  box-sizing: border-box !important;
+  font-size: 1rem !important;
+  max-width: 100% !important;
+  min-height: 48px !important;
+  overflow: hidden !important;
+  padding: 0 12px !important;
+  width: 400px;
+}
+
+.mailItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.listGmail {
+  padding: 10px;
+  font-size: 15px;
+  background: #eff4f9;
+  border-radius: 8px;
+  color: #202d3d;
+  display: table;
+  font-weight: 600;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  vertical-align: top;
+  width: max-content;
+  text-align: start;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.listGmail:hover {
+  text-decoration: underline;
+}
+
+.remove_icon .icon {
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.remove_icon .icon:hover {
+  width: 25px;
+  height: 25px;
+  color: #e03131;
+  transform: scale(1.05);
+}
+
+.addMail {
+  cursor: pointer;
+}
+.error {
+  text-align: start;
+  display: inline-block;
+  color: #e03131;
+  margin-bottom: 15px;
+}

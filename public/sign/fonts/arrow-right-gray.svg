@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 11" width="7" height="11">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-870 -282L730 -282L730 836L-870 836Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #c0c0c0 } 
+	</style>
+	<g id="worldee_web_nastaveni_REFERRAL – 2" clip-path="url(#cp1)">
+		<g id="Group 233">
+			<path id="Tvar 20 kopie 12" class="shp0" d="M1.19 0.57C0.99 0.37 0.64 0.37 0.43 0.57C0.22 0.77 0.22 1.1 0.43 1.3L4.81 5.51L4.29 6.05L0.43 9.76C0.22 9.97 0.22 10.3 0.43 10.5C0.64 10.7 0.99 10.7 1.19 10.5L5.96 5.9C6.17 5.7 6.17 5.37 5.96 5.17L1.19 0.57Z" />
+		</g>
+	</g>
+</svg>

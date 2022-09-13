@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 201" width="248" height="201">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M11 -5360L1611 -5360L1611 447L11 447Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M9 7L1613 7L1613 317L9 317L9 7Z" />
+		</clipPath>
+		<image width="82" height="70" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f2f2f2 } 
+		.shp1 { fill: #ffcd00 } 
+		.shp2 { fill: #ffda44 } 
+	</style>
+	<g id="worldee_web_premium_HP 02" clip-path="url(#cp1)">
+		<g id="Group 106">
+			<g id="Clip" clip-path="url(#cp2)">
+				<path id="Obdélník 18" class="shp0" d="M10.23 7L238.47 7L10 188.77L10.23 7Z" />
+			</g>
+			<use id="PREMIUM" href="#img1" transform="matrix(1,0,0,1,48,47)"/>
+			<g id="Group 5">
+				<g id="Vektorový inteligentní objekt">
+					<path id="Path 129" class="shp1" d="M85.71 57.63L73.44 44.9L74.5 27.4L58.9 34.96L42.65 28.2L68.81 61.68" />
+					<path id="Path 130" class="shp2" d="M68.81 61.68L42.65 28.2L45.28 45.6L34.17 58.92L51.4 62.11L60.79 77.1" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

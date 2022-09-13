@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 80px;
+  color: #202d3d;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 32px;
+  }
+}

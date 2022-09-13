@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 29" width="25" height="29">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-215 -1110L1385 -1110L1385 4925L-215 4925Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #01D9CF }
+		.shp1 { fill: #2b8780 } 
+	</style>
+	<g id="Detail tripu 2" clip-path="url(#cp1)">
+		<g id="Group 161">
+			<path id="Rectangle 258" class="shp0" d="M0 2L23 2L23 19L0 19L0 2Z" />
+			<path id="Ellipse 21" class="shp1" d="M23 4C21.89 4 21 3.11 21 2C21 0.89 21.89 0 23 0C24.11 0 25 0.89 25 2C25 3.11 24.11 4 23 4Z" />
+			<path id="Rectangle 259" class="shp1" d="M22 3L24 3L24 29L22 29L22 3Z" />
+		</g>
+	</g>
+</svg>

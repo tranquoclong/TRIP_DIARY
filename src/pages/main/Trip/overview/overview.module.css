@@ -1,0 +1,71 @@
+.isActive {
+  background: #00e1d6;
+  color: #fff;
+}
+
+.iTin_wrapper {
+  flex: 1;
+  overflow: auto;
+}
+
+.item {
+  padding: 5px 25px 0px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.notify_input {
+  width: 100%;
+  font-size: 20px;
+}
+
+.input,
+.input_day {
+  padding: 0 20px;
+  gap: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.input .address_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+  padding: 8px 0;
+  border-radius: 5px;
+}
+
+.input .address_container:hover {
+  background: #f4f8fb;
+}
+
+.input .address {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.input_day {
+  display: flex;
+  align-items: center;
+}
+
+.input_day select {
+  background: hsla(0, 0%, 100%, 0);
+  border: none;
+  font-size: 1rem;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #d0d8e6 !important;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+.thumbnail {
+  min-height: 300px !important;
+}

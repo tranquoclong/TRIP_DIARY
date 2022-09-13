@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <clipPath id="clip-ikona_01">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="ikona_01" clip-path="url(#clip-ikona_01)">
+    <g id="Group_193" data-name="Group 193" transform="translate(-4120 -1098)">
+      <g id="map" transform="translate(4120 1098)" opacity="0.2">
+        <path id="Union_1" data-name="Union 1" d="M17,34h0A17,17,0,1,1,17,0h0a17,17,0,0,1,0,34Z" transform="translate(0 0)" fill="#ff284a"/>
+      </g>
+      <g id="map-2" data-name="map" transform="translate(4125.267 1103.267)" opacity="0.4">
+        <path id="Union_1-2" data-name="Union 1" d="M12,24h0A12,12,0,1,1,12,0h0a12,12,0,0,1,0,24Z" transform="translate(-0.267 -0.267)" fill="#ff284a"/>
+      </g>
+      <g id="map-3" data-name="map" transform="translate(4130.471 1107.947)">
+        <path id="Union_1-3" data-name="Union 1" d="M7,14H7A7,7,0,1,1,7,0H7A7,7,0,0,1,7,14Z" transform="translate(-0.471 0.054)" fill="#ff284a"/>
+      </g>
+    </g>
+  </g>
+</svg>

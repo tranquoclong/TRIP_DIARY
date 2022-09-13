@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 29" width="25" height="29">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1360 -1111L240 -1111L240 4924L-1360 4924Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+		.shp1 { fill: #01D9CF }
+		.shp2 { fill: none;stroke: #01D9CF }
+		.shp3 { fill: #2b8780 } 
+	</style>
+	<g id="Detail tripu 2" clip-path="url(#cp1)">
+		<g id="Group 160">
+			<path id="Rectangle 262" class="shp0" d="M3 3L8.5 3L8.5 8L3 8L3 3Z" />
+			<path id="Rectangle 266" class="shp1" d="M3 8L8.5 8L8.5 13L3 13L3 8Z" />
+			<path id="Rectangle 270" class="shp0" d="M3 13L8.5 13L8.5 18L3 18L3 13Z" />
+			<path id="Rectangle 262" class="shp1" d="M8.5 3L14 3L14 8L8.5 8L8.5 3Z" />
+			<path id="Rectangle 265" class="shp0" d="M8.5 8L14 8L14 13L8.5 13L8.5 8Z" />
+			<path id="Rectangle 269" class="shp1" d="M8.5 13L14 13L14 18L8.5 18L8.5 13Z" />
+			<path id="Rectangle 262" class="shp0" d="M14 3L19.5 3L19.5 8L14 8L14 3Z" />
+			<path id="Rectangle 264" class="shp1" d="M14 8L19.5 8L19.5 13L14 13L14 8Z" />
+			<path id="Rectangle 268" class="shp0" d="M14 13L19.5 13L19.5 18L14 18L14 13Z" />
+			<path id="Rectangle 262" class="shp1" d="M19 3L24.5 3L24.5 8L19 8L19 3Z" />
+			<path id="Rectangle 263" class="shp0" d="M19 8L24.5 8L24.5 13L19 13L19 8Z" />
+			<path id="Rectangle 267" class="shp1" d="M19 13L24.5 13L24.5 18L19 18L19 13Z" />
+			<path id="Rectangle 260" class="shp2" d="M2 2L25 2L25 19L2 19L2 2Z" />
+			<path id="Ellipse 22" class="shp3" d="M2 4C0.89 4 0 3.11 0 2C0 0.89 0.89 0 2 0C3.11 0 4 0.89 4 2C4 3.11 3.11 4 2 4Z" />
+			<path id="Rectangle 261" class="shp3" d="M1 3L3 3L3 29L1 29L1 3Z" />
+		</g>
+	</g>
+</svg>

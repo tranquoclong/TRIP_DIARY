@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 248 201" width="248" height="201">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1146 -258L454 -258L454 700L-1146 700Z" />
+		</clipPath>
+		<image width="82" height="70" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f2f2f2 } 
+		.shp1 { fill: #ffcd00 } 
+		.shp2 { fill: #ffda44 } 
+	</style>
+	<g id="worldee_web_premium_NASTAVENI 02" clip-path="url(#cp1)">
+		<path id="Obdélník 18" class="shp0" d="M238.24 7L10 7L238.47 188.77L238.24 7Z" />
+		<use id="PREMIUM" href="#img1" transform="matrix(1,0,0,1,112,47)"/>
+		<g id="Group 5">
+			<g id="Vektorový inteligentní objekt">
+				<path id="Path 129" class="shp1" d="M156.44 57.63L168.72 44.9L167.65 27.4L183.26 34.96L199.51 28.2L173.35 61.68" />
+				<path id="Path 130" class="shp2" d="M173.35 61.68L199.51 28.2L196.88 45.6L207.99 58.92L190.75 62.11L181.37 77.1" />
+			</g>
+		</g>
+	</g>
+</svg>

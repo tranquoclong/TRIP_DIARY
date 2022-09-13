@@ -1,0 +1,46 @@
+.wrapper {
+    column-gap: 24px;
+    height: 100%;
+    min-width: unset;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    max-width: 100%;
+}
+
+.img-box {
+    flex-shrink: 0;
+    height: 72px;
+    width: 72px;
+}
+
+.img {
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.info {
+    flex-shrink: 1;
+    max-width: 205px;
+    min-width: 0;
+    row-gap: 8px;
+    display: flex;
+    flex-flow: column;
+}
+
+.name {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.num-of-trips {
+    font-size: 1rem;
+}

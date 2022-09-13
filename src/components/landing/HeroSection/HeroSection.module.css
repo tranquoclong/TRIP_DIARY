@@ -1,0 +1,66 @@
+.hero-section {
+  position: relative;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 500px;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(114deg, #00e1d6, #66ede7);
+  text-decoration: none;
+  color: #202d3d;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  align-items: center;
+  border-radius: 8px;
+  border-width: 0;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 1;
+  font-size: 0.875rem;
+  font-size: 1.125rem;
+  height: 56px;
+  justify-content: center;
+  justify-items: center;
+  max-width: 100%;
+  min-width: 0;
+  outline: none !important;
+  padding: 0 29.5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button div {
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: initial;
+  }
+}

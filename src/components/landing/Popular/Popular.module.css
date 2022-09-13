@@ -1,0 +1,9 @@
+.trip-container {
+  padding: 0 18px;
+}
+
+.trip-items {
+  /* display: grid; */
+  justify-content: center;
+  gap: 20px;
+}

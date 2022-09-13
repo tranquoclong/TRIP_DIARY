@@ -1,0 +1,134 @@
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.outer {
+  position: relative;
+  background: #999;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  max-width: 400px;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.item-image {
+  border-radius: 10px;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 20%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.item-image img {
+  filter: brightness(0.9);
+  position: relative;
+}
+
+.outer:hover .item-image {
+  transform: scale(1.1);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top .list-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.top .list-flag .flag {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #e9ecef;
+}
+
+.profile-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #e9ecef;
+}
+
+.bottom {
+  text-align: left;
+}
+
+.destination-name {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #00000033;
+  display: -webkit-box;
+  hyphens: auto;
+}
+
+.destination-name span {
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.destination-info {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  flex-flow: row;
+  max-width: 100%;
+  min-width: 0;
+  color: #fff;
+}
+
+.destination-info span {
+  display: inline-block;
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12.5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  height: 24px;
+  padding: 4px 10px;
+  text-shadow: 1px 1px 2px #00000014;
+}
+
+@media (max-width: 400px) {
+  .outer {
+    max-width: 80%;
+    width: 80%;
+  }
+}

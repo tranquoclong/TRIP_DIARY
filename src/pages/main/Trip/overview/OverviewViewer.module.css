@@ -1,0 +1,72 @@
+.overview_container {
+  flex: 1;
+  overflow: auto;
+}
+
+.iTin_wrapper {
+  flex: 1;
+  overflow: auto;
+}
+
+.thumbnail {
+  height: 40vh;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.amounts {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #ffff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 30px;
+}
+
+.amounts>div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.overview_destination {
+  padding: 0 35px;
+  font-family: "Poppins", sans-serif;
+}
+
+.overview_destination label {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.overview_destination .destination {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.overview_destination .destination:hover {
+  background: #c5f6fa;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="46.16" height="46" viewBox="0 0 46.16 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e5481b;
+        stroke: url(#linear-gradient-1);
+        stroke-linejoin: round;
+        stroke-width: 3px;
+        fill-opacity: 0;
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="7.459" y1="44.5" x2="38.701" y2="1.5">
+      <stop offset="0" stop-color="#17f1b4"/>
+      <stop offset="1" stop-color="#00bcf5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="23.08" cy="23" r="21.58" class="cls-1"/>
+</svg>

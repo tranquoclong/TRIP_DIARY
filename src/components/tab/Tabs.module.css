@@ -1,0 +1,22 @@
+.tabs {
+  flex-basis: 60px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.tabs:hover {
+  flex-basis: 140px;
+}
+
+.interactive {
+  display: flex;
+  padding-left: 15px
+}
+
+.interactive button {
+  padding: 0 15px;
+}
+
+.interactive button span {
+  padding-left: 10px;
+}

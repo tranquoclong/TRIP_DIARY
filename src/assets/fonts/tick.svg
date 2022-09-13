@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 17" width="22" height="17">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-484 -5562L1116 -5562L1116 245L-484 245Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #01D9CF }
+	</style>
+	<g id="worldee_web_premium_HP 02" clip-path="url(#cp1)">
+		<g id="Group 106">
+			<path id="Path 194" class="shp0" d="M8.11 16.48C7.91 16.68 7.63 16.79 7.35 16.79C7.06 16.79 6.78 16.68 6.58 16.48L0.48 10.37C-0.16 9.74 -0.16 8.71 0.48 8.07L1.24 7.31C1.87 6.68 2.9 6.68 3.53 7.31L7.35 11.12L17.65 0.82C18.28 0.19 19.31 0.19 19.94 0.82L20.71 1.59C21.34 2.22 21.34 3.25 20.71 3.88L8.11 16.48Z" />
+		</g>
+	</g>
+</svg>

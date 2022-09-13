@@ -1,0 +1,92 @@
+.container {
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 10px;
+  /* border: 1px solid #343a40; */
+  max-width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  margin-left: 10px;
+}
+
+.inner {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: end; */
+  font-size: 1rem;
+  gap: 20px;
+}
+
+.actions {
+  display: flex;
+  /* align-items: end; */
+  gap: 5px;
+}
+
+.save_button,
+.close_button {
+  height: fit-content;
+  border-radius: 8px;
+  padding: 0 20px;
+  align-self: end;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.save_button {
+  background: #22b8cf;
+}
+
+.save_button:hover {
+  background: #15aabf;
+}
+
+.close_button {
+  background: #f03e3e;
+}
+
+.close_button:hover {
+  background: #e03131;
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+}
+
+.name,
+.price {
+  flex: 1;
+  position: relative;
+}
+
+.name>input,
+.price>input {
+  font-size: 1rem;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+  .inner {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .name,
+  .price,
+  .save_button {
+    width: 100%;
+  }
+}
+
+.error {
+  color: #c92a2a;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
